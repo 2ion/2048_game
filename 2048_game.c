@@ -244,8 +244,8 @@ int main()
 
 lose:
 	move(7, 0);
-	printw("You lose! Press q to quit.");
-	while (getch() != 'q');
+	printw("You lose! Press any key to quit.");
+	getch();
 end:
 	endwin();
 	printf("You %s after scoring %d points in %d turns, "
