@@ -30,13 +30,8 @@ struct game_t {
 	tile_t board[NROWS][NCOLS];
 };
 
-<<<<<<< HEAD
 const char HIGHSCORE_FILE[] = ".2048score";
 
-=======
-// place_tile() returns 0 if it did place a tile and -1 if there is no open
-// space.
->>>>>>> 5457213ac282c684ea755808620e0a7bfb7fc66f
 int place_tile(struct game_t *game)
 {
 	// lboard is the "linear board" -- no need to distinguish rows/cols
